@@ -6,64 +6,78 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: cornflowerblue;
+    background-color: white;
     
 }
 
-.titulo{
-    width: 350px;
-    height: 250px;
-    background-color: chartreuse;
-    padding: 10px;
-    color: blueviolet;
+.primeiracaixa{
+    border-radius: 10px;
+    display: flex ;
+    padding: 40px;
+    border-radius: 10px;
 }
-h4{
-    display: flex;
-    margin-right: 70px;
+.font{
+    font-size: 30px;
 }
 
+.titulo {
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    padding: 10px;
+    color: blueviolet;
+    padding: 50px;
+    font-size: px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 8px;
+    margin-right: 130px;
+    padding: 25px;
+ 
+    
+
+}
 .imagem1{
     width: 35px;
     border-radius: 30px;
-    align-self: flex-start;
+    display: flex;
     
+   
   
 }
 
 .imgenome{
     width: 350px;
-    height: 250px;
+    height: 220px;
     background-color: rgb(102, 18, 98);
     display: flex;
     font-size: 10px;
     color: white;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column ;
+    gap: 15px;
+    border-radius: 10px;
     
-    
-   
     
  }
 
 .paragrafo4{
     display: flex;
-    align-items: center;
     font-size: 15px;
-    align-self: flex-end;
-    align-items: center;
+    padding: 15px;
+
 }
 
-img h1 h2{
-   
-    
- 
-    
-}
-
-
- 
 
 .coltonverif{
     color: rgb(160, 28, 187);
+    font-size: 14px;
   
+}
+h1{
+   
 }
