@@ -17,7 +17,10 @@ body{
     padding: 10px;
     color: blueviolet;
 }
-
+h4{
+    display: flex;
+    margin-right: 70px;
+}
 
 .imagem1{
     width: 35px;
@@ -26,35 +29,41 @@ body{
     
   
 }
-.primeiracaixa{
-    list-style-image: url(images/image-colton.jpg);
-    align-items: center;
-    display: flex;
-    
-}
+
 .imgenome{
     width: 350px;
     height: 250px;
     background-color: rgb(102, 18, 98);
     display: flex;
-    padding: 40px;
-    font-size: 15px;
-    gap: 25px;
+    font-size: 10px;
     color: white;
-    justify-content: flex-start;
-    list-style-image: url(images/image-colton.jpg)
+    align-items: center;
+    flex-direction: column;
+    
+    
+   
+    
+ }
+
+.paragrafo4{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    align-self: flex-end;
+    align-items: center;
+}
+
+img h1 h2{
+   
+    
  
+    
 }
 
 
-.paragrafo1{
-display: flex;
-font-size: 15px;
-margin-right: px;
-justify-content: flex-start;
-
  
-}
+
 .coltonverif{
     color: rgb(160, 28, 187);
+  
 }
