@@ -9,6 +9,12 @@ body{
     background-color: white;
     
 }
+.caixatitulo{
+width: 1000px;
+height: 300px;
+color: rgb(16, 82, 60);
+
+}
 
 .primeiracaixa{
     border-radius: 10px;
@@ -21,9 +27,7 @@ body{
 }
 
 .titulo {
-    width: 350px;
-    height: 250px;
-    background-color: white;
+    background-color: rgb(219, 120, 120);
     padding: 10px;
     color: blueviolet;
     padding: 50px;
@@ -80,7 +84,12 @@ body{
 }
 .paragrafo{ 
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    text-align-last: justify:
    
+}
+.estrelas1{
+    display: flex;
+    gap: 30px;
+    justify-content: right;
 }
