@@ -27,7 +27,7 @@ body{
     padding: 10px;
     color: blueviolet;
     padding: 50px;
-    font-size: px;
+    justify-content: space-between;
 }
 
 .principal{
@@ -78,6 +78,9 @@ body{
     font-size: 14px;
   
 }
-h1{
+.paragrafo{ 
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
    
 }
